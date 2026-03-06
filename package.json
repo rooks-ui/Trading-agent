@@ -1,0 +1,33 @@
+{
+  "name": "trading-agent",
+  "version": "1.0.0",
+  "description": "Autonomous AI trading agent on Solana",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node --watch src/index.ts",
+    "clean": "rmdir /s /q dist 2>nul || echo dist already clean"
+  },
+  "keywords": [
+    "solana",
+    "autonomous",
+    "trading",
+    "agent",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@solana/spl-token": "^0.4.0",
+    "@solana/web3.js": "^1.87.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.35",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
