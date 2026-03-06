@@ -1,0 +1,1 @@
+{"version":3,"file":"MarketSimulator.d.ts","sourceRoot":"","sources":["../../src/protocols/MarketSimulator.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,0BAA0B,CAAC;AAEtD;;;;;;GAMG;AACH,qBAAa,eAAe;IAC1B,OAAO,CAAC,SAAS,CAAe;IAChC,OAAO,CAAC,KAAK,CAAsC;IACnD,OAAO,CAAC,UAAU,CAAa;IAC/B,OAAO,CAAC,IAAI,CAAa;IAEzB;;;;;OAKG;IACH,aAAa,IAAI,UAAU;IA0C3B,QAAQ,IAAI,MAAM;CAGnB"}
